@@ -33,12 +33,7 @@
   <title>Matrimony App</title>
   <link rel="manifest" href="manifest.json">
   <style>
-    body {
-      background-color: #000;
-    }
-
     .custom-loading {
-
       width: 100vw;
       height: 100vh;
       display: flex;
@@ -50,18 +45,19 @@
     }
 
     .center {
-
       width: 30vw;
     }
   </style>
+  <!-- This script adds the flutter initialization JS code -->
+  <script src="flutter.js" defer></script>
 </head>
 
 <body style="overflow: hidden">
   <div id="loading_indicator" class="custom-loading">
-    <img class="center" src="assets/loading-heartbeat.gif" />
+    <img class="center" src="assets/loading.gif" />
   </div>
   <script>
-    var serviceWorkerVersion = "1154956795";
+    var serviceWorkerVersion = "3018860026";
     var scriptLoaded = false;
     function loadMainDartJs() {
       if (scriptLoaded) {
